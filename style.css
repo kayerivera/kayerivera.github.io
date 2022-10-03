@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(260, 205, 222);
+	color: white;
+}
+
+
+h1 {
+	padding: 1% 1% 1% 40%;
+	font-size: 40px;
+}
+
+
+/* below are the gifs */
+#mm {
+	float: left;
+  	width: 33.33%;
+  	padding: 5px;
+}
+
+
+#k {
+	padding: 1% 15% 1% 85%;
+	margin: 5% 5% 5% 5%;
+}
+/* above are the gifs */
+
+
+a {
+	color: 	white;
+	font-size: 20px;
+	padding: 1% 1% 1% 40%;
+	margin: 5% 5% 5% 5%;
+}
