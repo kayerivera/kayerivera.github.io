@@ -1,0 +1,79 @@
+
+#logo {
+	float: left;
+	width: 41%;
+}
+
+
+h1 {
+	font-family: 'Dangrek', cursive;
+	padding-left: 35%
+}
+
+
+h2 {
+	font-family: 'Dangrek', cursive;
+	color: rgb(250, 127, 180);
+	padding-left: 50%;
+}
+
+
+
+
+/* menu section */
+
+	.menu {
+		font-family: 'Dangrek', cursive;
+		color: white;
+		padding-top: 1%;
+		padding-left: 34%;
+		padding-bottom: 1%;
+		background-color: rgb(250, 127, 180);
+	}
+
+	#mhk {
+		padding-right: 20px;
+	}
+
+	#mku {
+		padding-right: 20px;
+	}
+
+	#mp {
+		padding-right: 20px;
+	}
+
+	#mc {
+		padding-right: 20px;
+	}
+
+	#mmm {
+		padding-right: 20px;
+	}
+
+	#mke {
+		padding-right: 20px;
+	}
+
+
+
+
+p {
+	font-family: 'Dangrek', cursive;
+}
+
+
+a {
+	color: white;
+}
+
+.bio {
+	float: left;
+	width: 70%;
+}
+
+.images {
+	float: left;
+	padding: 5%;
+
+}

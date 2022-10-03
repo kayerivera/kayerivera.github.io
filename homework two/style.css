@@ -1,0 +1,183 @@
+
+#logo {
+	float: left;
+	width: 41%;
+}
+
+
+h1 {
+	font-family: 'Dangrek', cursive;
+	padding-left: 35%
+}
+
+
+h2 {
+	font-family: 'Dangrek', cursive;
+	color: rgb(0, 153, 255);
+	padding-left: 50%;
+}
+
+
+
+
+/* menu section */
+
+	.menu {
+		font-family: 'Dangrek', cursive;
+		color: white;
+		padding-top: 1%;
+		padding-left: 34%;
+		padding-bottom: 1%;
+		background-color: rgb(65, 105, 225);
+	}
+
+	#mhk {
+		padding-right: 20px;
+	}
+
+	#mku {
+		padding-right: 20px;
+	}
+
+	#mp {
+		padding-right: 20px;
+	}
+
+	#mc {
+		padding-right: 20px;
+	}
+
+	#mmm {
+		padding-right: 20px;
+	}
+
+	#mke {
+		padding-right: 20px;
+	}
+
+
+
+
+#bio {
+	font-family: 'Dangrek', cursive;
+	font-size: 15px;
+	padding-top: 1%;
+	padding-left: 39%;
+	padding-bottom: 1%;
+
+}
+
+
+
+p {
+	font-family: 'Dangrek', cursive;
+}
+
+
+a {
+	color: hotpink;
+}
+
+/* hello kitty section */
+
+	.hk {
+		float: left;
+		width: 25%;
+		margin: 1% 1% 1% 10%;
+		border-width: 3px;
+		padding: 10px 10px 10px 10px;
+		background-color: rgb(232, 242, 245);
+	}
+
+	#phk {
+		padding-left: 88px;
+	}
+
+
+
+
+/* kuromi section */
+
+	.ku {
+		float: left;
+	  	width: 25%;
+		margin: 1% 3% 1% 3%;
+		padding: 10px 10px 10px 10px;
+		background-color: rgb(232, 242, 245);
+	}
+
+	#pku {
+		padding-left: 95px;
+	}
+
+
+
+
+/* pochacco section */
+
+	.p {
+		float: left;
+	  	width: 25%;
+		margin: 1%;
+		margin-right: 1%;
+		padding: 10px 10px 10px 10px;
+		background-color: rgb(232, 242, 245);
+	}
+
+	#pp {
+		padding-left: 90px;
+	}
+
+
+
+
+/* cinnamaroll section */
+
+	.c {
+		float: left;
+		width: 25%;
+		margin: 1% 1% 1% 10%;
+		padding: 10px 10px 10px 10px;
+		background-color: rgb(232, 242, 245);
+	}
+
+	#pc {
+		padding-left: 85px;
+	}
+
+
+
+
+/* my melody section */
+
+	.mm {
+		float: left;
+		width: 25%;
+		margin: 1% 3% 1% 3%;
+		padding: 10px 10px 10px 10px;
+		background-color: rgb(232, 242, 245);
+	}
+
+	#pmm {
+		padding-left: 88px;
+	}
+
+
+
+
+/* keroppi section */
+
+	.ke {
+		float: left;
+		width: 25%;
+		margin: 1%;
+		padding: 10px 10px 10px 10px;
+		background-color: rgb(232, 242, 245);
+	}
+
+	#pke {
+		padding-left: 100px;
+	}
+
+
+
