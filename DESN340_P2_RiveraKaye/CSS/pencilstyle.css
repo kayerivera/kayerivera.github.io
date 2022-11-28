@@ -1,0 +1,491 @@
+/* This is the Style Sheet for the pencil page 
+
+H1 is GT Super Super @ 64
+
+H2 is GT Super Super @ 36
+
+H3 is Poppins Medium at 32
+
+H4 is Poppins Regular at 24
+
+H5 is Poppins Regular at 20
+
+
+Colors: ;
+
+Blue #153B84
+Orange #c2402f
+peachy #ffeae7
+gray #161616
+off white #fefbf5
+
+
+
+
+/* high level and universally applied properties */
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+@font-face {
+    font-family: "GT-Super";
+    src: url("../GT-Super/GT-Super-Display-Super.woff2");
+}
+
+@font-face {
+	font-family: "GT-Light";
+	src: url("../GT-Super/GT-Super-Display-Regular.woff2");
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+.row:before,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+/* type styling */
+
+
+body {
+	font-family: sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	background-color: #fefbf5;
+}
+
+
+h1 {
+	font-family: "GT-Super";
+	font-size: 90px;
+	color: black;
+	margin: 0;
+	/* we could also use font-size: 4rem; to get the same size. 
+	Ultimatley if we were building a site to be completely 
+	responsive then we would want to use this but I am going 
+	to use my Figma File as a refernce and they use absolute values
+	*/
+}
+
+
+h2 {
+	font-family: "GT-Super";
+	font-size: 80px;
+	margin: 0;
+}
+
+
+h3 {
+	font-family: "GT-Super";
+	font-size: 50px;
+	margin: 0;
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.8rem;
+	margin: 0;
+}
+
+p {
+	font-family: ;
+	font-size: 15px;
+	font-weight: ;
+	line-height: 1.8rem;
+	margin: ;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: lightgray;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+.tighten {
+	letter-spacing: -0.03em;
+}
+
+/* layout styling */
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
+.container-fluid {
+	width: 100%;
+	padding-top: ;
+	padding-bottom: ;
+}
+
+.right-align {
+	float: right;
+}
+
+.left-align {
+	float: left;
+}
+
+
+/* Header Styling */ 
+
+#menu {
+	margin-left: 450px;
+}
+
+header {
+	background-color: #153b84;
+	color: #fff;
+	position: fixed;
+	height: 12vh;
+	z-index: 4;
+	font-size: 0.7em;
+}
+
+header li {
+	float: left;
+	margin-left: 18px;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+
+
+#logo>a {
+	display: inline-block;
+	width: 75px;
+	padding-top: 20px;
+	margin-left: 10px;
+}
+
+header nav {
+	width: 870px;
+}
+
+.nav-link {
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
+.nav-link a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+#search {
+	display: inline-block;
+	border-style: solid;
+	border-color: #fff;
+	padding: 10px;
+	padding-left: 15px;
+	border-radius: 30px;
+	width: 300px;
+}
+
+#search a {
+	
+}
+
+/* Hero/Bilboard Styling */ 
+
+
+#hero {
+	height: 80vh;
+	background-image: url("../images/pencilhero.png");
+	background-size: cover;
+}
+
+#hero-chunk {
+	position: relative;
+	top: 510px;
+	text-align: center;
+}
+
+#hero-chunk h4{
+	margin-bottom: 30px;
+}
+
+a.CTA {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+	border-style: solid;
+}
+}
+
+a.CTA:hover {
+	background-color: #e45c4a;
+}
+
+/* body */ 
+
+
+.p2 {
+	margin-top: 300px;
+	text-align: center;
+}
+
+#greattools {
+	margin: 20px 0px 100px 250px;
+	text-align: center;
+}
+
+
+/* Card styling */
+
+#cards {
+	margin-top: -475px;
+}
+
+.card-chunk {
+
+}
+
+.card-chunk span {
+	font-family: GT-Super;
+}
+
+.card-chunk h3 {
+	padding-top: 150px;
+	font-size: 34;
+	font-family: GT-Light;
+}
+
+.card-chunk p {
+
+}
+
+#paper {
+	background-color: #161616;
+	color: #fff;
+	width: 95vw;
+	height: 720px;
+	margin: 0 auto;
+	border-radius: 18px;
+	display: grid;
+	grid-template-columns: 450px 670px;
+	column-gap: 30px;
+	padding: 100px;
+	margin-bottom: 20px;
+}
+
+/* palm, erase, blend styling */
+
+.icons {
+	margin-left: 100px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+#palm h4 {
+	text-align: center;
+}
+
+#palm p {
+	text-align: left;
+	font-size: 15.5px;
+	padding: 10px;
+}
+
+#erase h4 {
+	text-align: center;
+}
+
+#erase p {
+	text-align: left;
+	font-size: 15.5px;
+	padding: 10px;
+} 
+
+#blend h4 {
+	text-align: center;
+}
+
+#blend p {
+	text-align: left;
+	font-size: 15.5px;
+	padding: 10px;
+} 
+
+/* back to body */
+
+#p3 {
+	margin-top: 100px;
+	text-align: center;
+}
+
+#fromthe {
+	margin: 20px 0px 100px 250px;
+	text-align: center;
+}
+
+/* pencil parts */
+
+#parts {
+	position: absolute;
+	z-index: -1;
+	margin-top: 200px;
+
+}
+
+.partstitle {
+	position: relative;
+	color: white;
+}
+
+#title1 {
+	margin-left: 300px;
+	margin-top: 140px;
+}
+
+#title2 {
+	margin-left: 300px;
+	margin-top: 140px;
+}
+
+#title3 {
+	margin-left: 300px;
+	margin-top: 333px;
+}
+
+#title4 {
+	margin-left: 300px;
+	margin-top: 600px;
+}
+
+#title5 {
+	margin-left: 300px;
+	margin-top: 298px;
+}
+
+#title6 {
+	margin-left: 300px;
+	margin-top: 150px;
+}
+
+
+/* back to body */
+
+.action {
+	margin-top: 300px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+a.CTAtoo {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	padding: 1em 2.5em;
+	border-radius: 2em;
+	border-style: solid;
+}
+
+a.CTAtoo:hover {
+	background-color: #e45c4a;
+}
+
+/* Footer styles and rules */
+
+footer {
+	position: relative;
+	background-color: #161616;
+	border-radius: 125px 125px 0px 0px;
+	color: #fff;
+	height: 70vh;
+}
+
+footer h4 {
+	padding: 2rem;
+	font-family: "GT-Light";
+}
+
+#partners {
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer li {
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 1204px) {
+	footer ul {
+		flex-direction: column;
+	}
+}
+
+#foot-links {
+	margin-top: 40px;
+}
+
+#foot-links li:first-child {
+	font-weight: 600;
+	padding-bottom: 30px;
+}
+
+#foot-links ul {
+	display: flex;
+	flex-direction: column;
+}
+
+#foot-links li {
+	text-align: left;
+}
+
+#foot-links img {
+	max-width: 70px;
+}
